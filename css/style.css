@@ -1,3 +1,66 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+blue: #9BB8CD
+beige: #FFF7D4
+yellow: #EEC759
+sage: #B1C381
+
+*/
+
 body {
-    background-color: cornflowerblue;
+    background-color: #FFF7D4;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5;
+}
+h1 {
+    font-size: 2.5rem;
+}
+.container {
+    padding: 2% 7%;
+}
+hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: #000000;
+}
+
+#header {
+
+}
+
+#header .container {
+    padding: 2% 7%;
+}
+
+#about {
+
+}
+
+#skills {
+
+}
+
+#projects {
+
+}
+
+#footer {
+
+}
+.footer-link {
+    padding: 0 20px;
+    text-decoration: none;
 }
