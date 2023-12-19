@@ -41,7 +41,6 @@ hr {
 a {
     color: #000000;
 }
-
 #header {
 
 }
@@ -57,12 +56,18 @@ a {
     text-align: justify;
 }
 
-#skills {
-
+#skills .row {
+    text-align: left
 }
 
-#projects {
+#projects a, a:visited  {
+    color: #000000;
+    text-decoration: none;
+}
 
+#projects a:hover  {
+    color: #000000;
+    text-decoration: underline;
 }
 
 #footer {
