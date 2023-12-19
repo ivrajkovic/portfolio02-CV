@@ -1,20 +1,14 @@
 /*
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-
-blue: #9BB8CD
-beige: #FFF7D4
-yellow: #EEC759
-sage: #B1C381
-
+beige: #FCF5ED
+peach: #F4BF96
+red: #CE5A67
+black: #1F1717
 */
 
+/* Main structure */
 body {
-    background-color: #FFF7D4;
+    background-color: #FCF5ED;
+    color: #1F1717;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     line-height: 2;
@@ -41,44 +35,46 @@ hr {
 a {
     color: #000000;
 }
-#header {
-
+i {
+    color: #CE5A67;
 }
 
+/* Sections */
+#header {
+    background-color: #F4BF96;
+}
 #header .container {
     padding: 2% 7%;
 }
-
-#about {
-
-}
-#about .about-text{
+#about .text{
     text-align: justify;
 }
-
 #skills .row {
     text-align: left
 }
-
 #projects a, a:visited  {
     color: #000000;
     text-decoration: none;
 }
-
 #projects a:hover  {
     color: #000000;
     text-decoration: underline;
 }
-
 #footer {
-
+    background-color: #F4BF96;
+}
+#footer i {
+    color: #1F1717;
 }
 .footer-link {
     padding: 0 20px;
     text-decoration: none;
 }
+
+/* Specific */
 .profile-image {
     width: 20%;
     float: left;
     margin-right: 30px;
 }
+
